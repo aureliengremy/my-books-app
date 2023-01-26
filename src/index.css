@@ -3,3 +3,10 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+@layer components {
+.flex-wrapper {
+    @apply flex flex-col min-h-screen justify-start
+  }
+}
