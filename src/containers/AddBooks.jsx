@@ -7,6 +7,7 @@ const AddBooks = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
+
   return (
     <main role="main">
       <div className="bg-slate-200">
